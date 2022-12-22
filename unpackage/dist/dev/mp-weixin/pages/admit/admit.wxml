@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><view class="title">Hello,<text class="userName">{{a}}</text></view><button class="commonBtn" type="primary" open-type="getPhoneNumber" bindtap="{{b}}">获取授权</button></view></view>

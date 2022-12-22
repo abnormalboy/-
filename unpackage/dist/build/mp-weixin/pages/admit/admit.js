@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),n={data:()=>({userName:"Ming"}),onLoad(){},methods:{handleAdmit(){e.index.reLaunch({url:"/pages/index/index"})}}};const d=e._export_sfc(n,[["render",function(n,d,r,t,a,o){return{a:e.t(a.userName),b:e.o(((...e)=>o.handleAdmit&&o.handleAdmit(...e)))}}]]);wx.createPage(d);

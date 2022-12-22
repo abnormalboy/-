@@ -1,0 +1,1 @@
+.content{display:flex;flex-direction:column;align-items:center;justify-content:center;height:calc(100vh - 94px);gap:1.5625rem 0}.content .logo{width:6.25rem;height:6.25rem;border-radius:50%}.content .title{text-align:center;margin:.625rem;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.content .commonBtn{height:3.125rem}

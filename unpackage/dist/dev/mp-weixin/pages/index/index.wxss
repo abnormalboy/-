@@ -1,0 +1,170 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.swiper-container .pic-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.swiper-container .swiper-pic {
+  width: 100%;
+}
+.nav-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 32rpx;
+}
+.nav-tabs .nav-tabs-item {
+  display: flex;
+  flex-direction: column;
+  margin: 24rpx 30rpx;
+}
+.nav-tabs .nav-tabs-item .nav-tabs-item-pic {
+  height: 100rpx;
+  width: 100rpx;
+}
+.nav-tabs .nav-tabs-item .nav-tabs-item-text {
+  text-align: center;
+  color: #333;
+  font-size: 26rpx;
+}
+.calendar-container {
+  border: 1rpx solid #f7f7f7;
+  box-sizing: border-box;
+  margin-bottom: 40rpx;
+}
+.calendar-container .content-one + .content-one {
+  border-top: 1rpx solid #f7f7f7;
+}
+.calendar-container .week {
+  display: flex;
+}
+.calendar-container .week .week-active {
+  background: #ffffff !important;
+  border: 0 1rpx solod #f5f5f5;
+  border-top: 5rpx solid #b59b8f;
+  flex-grow: 1;
+}
+.calendar-container .week .week-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90rpx;
+  height: 120rpx;
+  background-color: #f5f5f5;
+  margin: 0 1rpx;
+}
+.calendar-container .week .week-item .week-item-content,
+.calendar-container .week .week-item .week-item-day {
+  text-align: center;
+  color: #a6a6a6;
+  font-size: 22rpx;
+  margin-bottom: 4rpx;
+}
+.calendar-container .week .week-item .week-item-day {
+  color: #b59b90;
+  font-weight: bold;
+  font-size: 34rpx;
+}
+.calendar-container .content-one {
+  display: flex;
+  justify-content: space-between;
+  padding: 32rpx 0;
+  margin: 0 16rpx;
+}
+.calendar-container .content-one .content-one-text {
+  width: 50rpx;
+  height: 80rpx;
+  font-size: 24rpx;
+  color: #737373;
+  margin-top: 6rpx;
+  border-radius: 6rpx;
+}
+.calendar-container .content-one .content-one-pic {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 6rpx;
+  overflow: hidden;
+}
+.calendar-container .content-one .content-one-pic image {
+  width: 100%;
+  height: 100%;
+}
+.calendar-container .content-one .content-one-more {
+  width: 80rpx;
+  height: 80rpx;
+  font-size: 22rpx;
+  color: #a6a6a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6rpx;
+  background: #f5f5f5;
+}
+.activities-container .activities-nav {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.activities-container .activities-nav .activities-nav-item {
+  margin: 0 20rpx;
+  color: #b59b90;
+  font-size: 28rpx;
+}
+.activities-container .activities-nav .active {
+  border-bottom: #bbb solid 2rpx;
+}
+.activities-container .content {
+  background-color: #f5f5f5;
+  padding: 10rpx;
+  border-radius: 5rpx;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.activities-container .content .content-left {
+  margin: 10rpx;
+}
+.activities-container .content .content-left .content-left-image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 5rpx;
+}
+.activities-container .content .content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rpx;
+}
+.activities-container .content .content-right .content-right-title {
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 500rpx;
+}
+.activities-container .content .content-right .content-right-text {
+  font-size: 24rpx;
+  color: #a6a6a6;
+}

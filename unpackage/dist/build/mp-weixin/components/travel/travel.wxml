@@ -1,0 +1,1 @@
+<view class="common-card"><view class="common-card-header"><view><text class="{{['iconfont', 'common-card-header-icon', a]}}"></text><text class="common-card-header-text">{{b}}</text></view><view class="common-card-header-more"><text>{{c}}</text></view></view><slot></slot></view>

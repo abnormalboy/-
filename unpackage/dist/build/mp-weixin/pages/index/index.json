@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "myapp",
+  "usingComponents": {
+    "tags-nav": "../../components/tagsNav/tagsNav",
+    "travel": "../../components/travel/travel"
+  }
+}

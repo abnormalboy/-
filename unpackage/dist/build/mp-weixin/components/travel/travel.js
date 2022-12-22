@@ -1,0 +1,1 @@
+"use strict";const t=require("../../common/vendor.js"),e={name:"travel",onLoad(t,e){console.log(this)},props:{text:{type:String,default:""},iconfontName:{type:String,default:"icon-rili"}},data:()=>({})};const n=t._export_sfc(e,[["render",function(e,n,o,r,c,a){return{a:t.n(o.iconfontName),b:t.t(o.text),c:t.t("更多>")}}]]);wx.createComponent(n);

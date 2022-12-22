@@ -1,0 +1,1 @@
+<view class="nav-tabs"><view wx:for="{{a}}" wx:for-item="item" wx:key="c" class="nav-tabs-item" bindtap="{{item.d}}"><image class="nav-tabs-item-pic" src="{{item.a}}" mode=""></image><text class="nav-tabs-item-text">{{item.b}}</text></view></view>

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/personal/personal",
+    "pages/admit/admit"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/shouye.png",
+        "selectedIconPath": "static/images/shouye-copy.png"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "详情",
+        "iconPath": "static/images/xiangqing.png",
+        "selectedIconPath": "static/images/xiangqing-copy.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "static/images/wode.png",
+        "selectedIconPath": "static/images/wode-copy.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

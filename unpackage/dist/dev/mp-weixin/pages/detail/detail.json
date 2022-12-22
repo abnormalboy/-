@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "七圣召唤",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tags-nav": "../../components/tagsNav/tagsNav",
+    "travel": "../../components/travel/travel",
+    "yang-dropdown": "../../uni_modules/yang-dropdown/components/yang-dropdown/yang-dropdown",
+    "uni-card": "../../uni_modules/uni-card/components/uni-card/uni-card"
+  }
+}
